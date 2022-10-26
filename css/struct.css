@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#playground-screen{
+    cursor: grab;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#playground{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.change-screen{
+    position: fixed;
+    background-color: #222;
+    border: none;
+    border-radius: 3px;
+    right: 20px;
+    bottom: 20px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 25px;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 0px #111;
+    color: #444;
+    font-weight: 600;
+}

@@ -1,0 +1,86 @@
+.card{
+    height: 600px;
+    aspect-ratio: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6%/4%;
+    box-shadow: 0px 0px 10px #00000050;
+    overflow: hidden;
+    float: left;
+}
+
+.blue{
+    background-color: #62b6ff;
+}
+.grey{
+    background-color: #777777;
+}
+.magenta{
+    background-color: #ea62ff;
+}
+
+.card-shine{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6%/4%;
+    background: linear-gradient(-5deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,.3) 60%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
+}
+
+.card-mp2is{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6%/4%;
+    background-image: url("assets/background.png");
+    background-size: 150px;
+    filter: contrast(0) brightness(100) opacity(0.1);
+    transform: rotate(-5deg);
+}
+
+.card-title{
+    font-size: 30px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 700;
+    margin: 10% 0% 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-picture-frame{
+    position: relative;
+    width: 70%;
+    aspect-ratio: 1/1;
+}
+
+.card-picture{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 3% 3% 0% 0%;
+}
+
+.card-picture-shadow{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0px 0px 10px #00000050;
+    border-radius: 3% 3% 0% 0%;
+}
+
+.card-picture-holder{
+    background-color: #00000010;
+    width: 75%;
+    height: 2%;
+    border-radius: .66%/25%;
+}
+
+.card-desc{
+    margin: 14% 10%;
+    font-size: 20px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
