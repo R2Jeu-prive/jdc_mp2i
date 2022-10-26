@@ -12,13 +12,19 @@
         
         <link rel="stylesheet" href="css/struct.css" />
         <link rel="stylesheet" href="css/card.css" />
+        <link rel="stylesheet" href="css/discover.css" />
     </head>
     <body>
-        <div id="playground-screen" class="screen">
+        <div id="playground-screen" class="screen hidden-screen">
             <div id="playground"><!--Filled by JS--></div>
             <button class="change-screen" id="goto-discover-screen">Découvrir la classe</button>
         </div>
-        <div id="discover-screen" class="screen hidden-screen">
+        <div id="discover-screen" class="screen">
+            <div id="footprint">
+                <div id="footprint-image"></div>
+                <p id="footprint-text">Cliquer pour tirer une carte !</p>
+            </div>
+            <div id ="card-holder"><!--Filled by JS--></div>
             <button class="change-screen" id="goto-playground-screen">Photo de classe</button>
         </div>
 
@@ -27,6 +33,7 @@
         <script src="js/card.js"></script> <!--Card Scripts-->
         <script src="js/navigation.js"></script> <!--Navigation Scripts-->
         <script src="js/playground.js"></script> <!--Playground Scripts-->
+        <script src="js/discover.js"></script> <!--Discover Scripts-->
     </body>
 
 </html>

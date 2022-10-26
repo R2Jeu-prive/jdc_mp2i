@@ -49,11 +49,11 @@ body{
 
 .screen.hidden-screen{
     opacity: 0;
-    transition: opacity .3s;
+    transition: opacity .1s .0s;
     pointer-events: none;
 }
 
 .screen{
     opacity: 100;
-    transition: opacity .3s;
+    transition: opacity .1s .1s;
 }
