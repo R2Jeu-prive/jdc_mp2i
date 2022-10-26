@@ -1,10 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #333;
+    background: radial-gradient(circle, #333 0%, #222 100%);
+    background-attachment: fixed;
     position: fixed;
     height: 100%;
     width: 100%;
+}
+
+*{
+    user-select: none;
 }
 
 #playground-screen{
@@ -22,15 +27,33 @@ body{
 
 .change-screen{
     position: fixed;
-    background-color: #222;
+    background-color: #999;
     border: none;
     border-radius: 3px;
-    right: 20px;
-    bottom: 20px;
+    right: 30px;
+    top: 30px;
     font-family: 'Kantumruy Pro', sans-serif;
     font-size: 25px;
-    padding: 5px 20px;
-    box-shadow: 2px 2px 0px #111;
-    color: #444;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 0px #666, 0px 0px 100px #111;
+    color: #333;
     font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.change-screen:hover{
+    background-color: #bbb;
+    transition: background-color .3s;
+}
+
+.screen.hidden-screen{
+    opacity: 0;
+    transition: opacity .3s;
+    pointer-events: none;
+}
+
+.screen{
+    opacity: 100;
+    transition: opacity .3s;
 }
