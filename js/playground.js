@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     for (let i = 0; i < cardbase.number; i++) {
         let card = new Card(cardbase.cardlist[i].id);
-        $("#playground").append(card.BuildHtml());
+        $("#playground").append(card.BuildHtml(false));
     }
 
     $("#playground .card").css("margin", cardsGap/2 + "px")
@@ -25,7 +25,6 @@ $(document).ready(function() {
         $(document.body).on('mousemove', function(e){
             var itop = e.pageY + ypos - height;
             var ileft = e.pageX + xpos - width;
-            console.log(itop, ileft);
             if(dr.hasClass("drag")){
                 dr.offset({top: itop,left: ileft});
             }
