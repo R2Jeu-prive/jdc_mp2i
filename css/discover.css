@@ -28,6 +28,14 @@
     box-shadow: 0px 0px 40px #ea62ff99;
     transition: box-shadow .1s 1s;
 }
+#footprint.green:hover, #footprint.green{
+    box-shadow: 0px 0px 40px #5bcf5999;
+    transition: box-shadow .1s 1s;
+}
+#footprint.red:hover, #footprint.red{
+    box-shadow: 0px 0px 40px #fb575799;
+    transition: box-shadow .1s 1s;
+}
 
 #footprint-image{
     position: absolute;
