@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    let cardsPerLigne = 4;
+    let cardsPerLigne = 5;
     let cardsGap = 30;
 
     $("#playground").css("width", (400+cardsGap)*cardsPerLigne + "px");

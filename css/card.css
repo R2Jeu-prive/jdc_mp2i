@@ -61,6 +61,12 @@
 .card-front.magenta, .card-back.magenta{
     background-color: #ea62ff;
 }
+.card-front.green, .card-back.green{
+    background-color: #5bcf59;
+}
+.card-front.red, .card-back.red{
+    background-color: #fb5757;
+}
 
 .card-title{
     font-size: 30px;

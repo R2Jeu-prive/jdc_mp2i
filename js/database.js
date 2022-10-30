@@ -1,5 +1,5 @@
 const cardbase = JSON.parse(
-    `{"number": 12, 
+    `{"number": 15, 
         "cardlist": [ 
             { 
                 "title": "La Très Sainte Craie", 
@@ -18,6 +18,24 @@ const cardbase = JSON.parse(
                 "id": "pierre",
                 "color": "blue",
                 "desc": "Vous savez moi je ne crois pas qu'il y ai de bonne ou de mauvaise situation, sauf le premier DS"
+            },
+            {
+                "title": "Maxence Saïndou",
+                "id": "maxence",
+                "color": "green",
+                "desc": "Rien ne se perd, rien ne se crée, tout se pécho"
+            },
+            {
+                "title": "Alex Bouret",
+                "id": "alex",
+                "color": "red",
+                "desc": "Sur un malentendu ça peut passer"
+            },
+            {
+                "title": "Rova Randrianarison",
+                "id": "raminia",
+                "color": "blue",
+                "desc": "Rien de grand dans le monde ne s'est accompli sans passion</br>-Hegel"
             },
             { 
                 "title": "Alpha", 
