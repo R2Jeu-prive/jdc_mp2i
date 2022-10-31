@@ -7,6 +7,8 @@ $(document).ready(function() {
             if(progress >= 4){
                 window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", "_blank");//easter egg
             }
+        }else{
+            progress = 0;
         }
     })
 });
