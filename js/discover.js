@@ -20,10 +20,11 @@ $("#card-holder").on("click", function(){
 
 function GetAllIdsRandomly(){
     let ids = [];
-    //fetch
+    //fetch all
     for (let i = 0; i < cardbase.number; i++) {
         ids.push(cardbase.cardlist[i].id);
     }
+
     //shuffle
     for (let i = 0; i < cardbase.number; i++){
         let r = Math.floor(Math.random()*cardbase.number);
@@ -31,5 +32,6 @@ function GetAllIdsRandomly(){
         ids[i] = ids[r];
         ids[r] = temp;
     }
+    
     return ids
 }

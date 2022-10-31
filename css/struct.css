@@ -23,6 +23,7 @@ body{
     position: fixed;
     top: 50%;
     left: 50%;
+    transform-origin: top left;
 }
 
 .change-screen{

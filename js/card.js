@@ -8,6 +8,7 @@ class Card{
     }
 
     BuildHtml(isDiscover){
+        //general
         let card = $('<div class="card" id="' + this.id + '"></div>');
         $(card).append('<div class="card-scaler"></div')
         let scaler = $(card).find(".card-scaler");
@@ -16,6 +17,7 @@ class Card{
             $(card).addClass("discover-card");
         }
         
+        //front
         $(scaler).append('<div class="card-front ' + this.color + '"></div>');
         let front = $(card).find(".card-front");
         $(front).append('<p class="card-title">' + this.title + '</p>');
@@ -25,9 +27,11 @@ class Card{
         $(front).append('<div class="card-picture-holder"></div>');
         $(front).append('<i class="card-desc">" ' + this.desc + ' "</i>');
         
+        //back
         $(scaler).append('<div class="card-back ' + this.color + '"></div>');
         let back = $(card).find(".card-back");
         $(back).append('<div class="card-back-logo"></div>')
+        
         return card
     }
 }

@@ -72,6 +72,10 @@
     transition: opacity .1s;
 }
 
+.card.discover-card .card-front{
+    cursor: pointer;
+}
+
 .card.discover-card.hidden{
     opacity: 0;
     transition: opacity .1s;
