@@ -5,7 +5,7 @@ const cardbase = JSON.parse(
                 "title": "La Très Sainte Craie", 
                 "id": "craie",
                 "color": "grey", 
-                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire" \
+                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire"
             }, 
             {
                 "title": "Corentin Ouisse",
@@ -41,7 +41,7 @@ const cardbase = JSON.parse(
                 "title": "Alpha", 
                 "id": "alpha",
                 "color": "grey", 
-                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire" \
+                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire"
             }, 
             {
                 "title": "Beta",
@@ -59,7 +59,7 @@ const cardbase = JSON.parse(
                 "title": "Qsd", 
                 "id": "qsd",
                 "color": "grey", 
-                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire" \
+                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire"
             }, 
             {
                 "title": "Qs",
@@ -77,7 +77,7 @@ const cardbase = JSON.parse(
                 "title": "Oui", 
                 "id": "oui",
                 "color": "grey", 
-                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire" \
+                "desc": "On raconte que les solutions de tous les exos de maths se cachent en cet artéfact millénaire"
             }, 
             {
                 "title": "Non",
